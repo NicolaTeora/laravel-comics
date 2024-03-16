@@ -1,5 +1,5 @@
 <header>
-    <div class="container">
+    <nav class="container">
         <ul>
             <li>
                 <a href="{{ route('characters') }}">characters</a>
@@ -33,6 +33,6 @@
             </li>
         </ul>
 
-    </div>
+    </nav>
     
 </header>

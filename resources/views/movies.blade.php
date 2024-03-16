@@ -1,4 +1,8 @@
+{{-- indico quale elemento vado ad estendere/rimepire --}}
 @extends('layout.app')
+
+{{-- uso il segna posto per cambiare il nome nella scheda del broswer --}}
+@section('title','- movies')
 
 @section('main-content')
     <main>
