@@ -1,3 +1,23 @@
 <footer>
-    this is footer
+    <div class="container d-flex">
+        <ul>
+            <li><b>Title</b></li>
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+        </ul>
+        <ul>
+            <li><b>Title</b></li>
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+        </ul>
+        <ul>
+            <li><b>Title</b></li>
+            <li>link</li>
+            <li>link</li>
+            <li>link</li>
+        </ul>
+        <div>image</div>
+    </div>
 </footer>

@@ -6,7 +6,7 @@
 
       <div class="container">
 
-        <h1>characters</h1>
+        <h1>movies</h1>
       
       </div>
 
