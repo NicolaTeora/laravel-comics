@@ -1,16 +1,24 @@
 @import "~bootstrap/scss/bootstrap";
 
 header{
-
-    ul{
-        padding: 1rem 0;
-        display: flex;
-        justify-content: space-between;
-        li{
-            list-style-type: none;
-            display: inline-block;
-            a{
-                text-decoration: none;
+    background-color: cornflowerblue;
+    .up-nav{
+        color: white;
+    }
+    nav{
+        background-color: white;
+        ul{
+            padding: 1rem 0;
+            display: flex;
+            justify-content: space-between;
+            
+            li{
+                list-style-type: none;
+                display: inline-block;
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
             }
         }
     }

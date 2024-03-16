@@ -1,6 +1,7 @@
 <header>
-    <nav class="container">
-        <ul>
+    <div class="up-nav container text-end">items</div>
+    <nav >
+        <ul class="container">
             <li>
                 <a href="{{ route('characters') }}">characters</a>
             </li>
@@ -36,3 +37,4 @@
     </nav>
     
 </header>
+<hr>
