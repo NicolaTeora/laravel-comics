@@ -11,7 +11,9 @@
   </head>
 
   <body>
-    <h1>Laravel with Bootstrap + Vite</h1>
+
+    @yield('main-content')
+
   </body>
 
 </html>
