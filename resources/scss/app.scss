@@ -1,7 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 figure{
-    img{ width: 100%;}
+    img{ 
+        width: 200px;
+        height: 250px;
+    }
     figcaption{
+        margin-top: .9rem;
+        font-weight: bold;
         font-size: small;
     }
 }

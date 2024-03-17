@@ -13,12 +13,12 @@
         <div class="row g-3">
             @foreach ($comicon as $item)
                 
-            <div class="col-4">
+            <div class="col">
 
                 <figure>
                     <img src="{{ $item['thumb'] }}" alt="">
                     <figcaption>
-                        {{ $item['title'] }}
+                        {{ $item['series'] }}
                     </figcaption>
                 </figure>
 
