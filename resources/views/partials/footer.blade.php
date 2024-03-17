@@ -1,5 +1,4 @@
 <footer>
-    <hr>
     <div class="container d-flex">
         <ul>
             <li><b>Title</b></li>
