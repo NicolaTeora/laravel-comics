@@ -35,6 +35,7 @@
         </ul>
 
     </nav>
+    <div id="jumbotron">
+    </div>
     
 </header>
-<hr>

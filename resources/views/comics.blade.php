@@ -16,7 +16,7 @@
             <div class="col">
 
                 <figure>
-                    <img src="{{ $item['thumb'] }}" alt="">
+                    <img src="{{ $item['thumb'] }}" alt="cover">
                     <figcaption>
                         {{ $item['series'] }}
                     </figcaption>
