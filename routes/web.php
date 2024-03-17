@@ -18,7 +18,9 @@ Route::get('/', function () {
 })->name('characters');
 
 Route::get('/comics', function () {
-  return view('comics');
+  $comicon = config('comics');
+  //dd($comicon);
+  return view('comics', compact('comicon'));
 })->name('comics');
 
 Route::get('/movies', function () {

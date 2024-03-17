@@ -1,4 +1,10 @@
 @import "~bootstrap/scss/bootstrap";
+figure{
+    img{ width: 100%;}
+    figcaption{
+        font-size: small;
+    }
+}
 
 header{
     background-color: cornflowerblue;
