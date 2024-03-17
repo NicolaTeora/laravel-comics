@@ -4,11 +4,16 @@
 {{-- uso il segna posto per cambiare il nome nella scheda del broswer --}}
 @section('title','- comics')
 
+{{-- @section('comics_css')
+    <link rel="stylesheet" href="../style/style.css">
+@endsection --}}
+
+{{-- sviluppo il contenuto --}}
 @section('main-content')
     @include('partials.header')
 
     <div class="container">
-        <h1>comics</h1>
+        <h1>current series</h1>
 
         <div class="row g-3">
             @foreach ($comicon as $item)
