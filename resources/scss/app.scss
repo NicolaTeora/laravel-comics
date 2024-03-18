@@ -36,16 +36,22 @@ header{
 #comicon{
     background-color: rgb(28, 28, 28);
     color: white;
+
+    position: relative;
     h1{
         width: fit-content;
-        padding: 10px;
+        padding: 5px;
         background-color: rgb(2, 130, 249);
+        position: absolute;
+        top: -50px
     }
 }
 figure{
     img{ 
         width: 200px;
-        height: 250px;
+        aspect-ratio: 2/2;
+        object-fit: cover;
+        object-position: top;
     }
     figcaption{
         margin-top: .9rem;
@@ -59,8 +65,7 @@ figure{
 //footer.blade.php
 #footer{
     background-image: url(../../public/images/footer-bg.jpg);
+    max-height: max-content;
     color: white;
-    .logo{
-        
-    }
+    
 }

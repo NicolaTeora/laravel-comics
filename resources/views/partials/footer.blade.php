@@ -50,7 +50,7 @@
 
             <div class="col-6">
                 <div class="logo">
-                    <img src="../../public/images/dc-logo-bg.png" alt="dc-logo-bg.png">
+                    {{-- <img src="../../public/images/dc-logo-bg.png" alt="dc-logo-bg.png"> --}}
                 </div>
             </div>
 

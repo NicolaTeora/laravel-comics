@@ -11,8 +11,12 @@
   </head>
 
   <body>
+    {{-- includo le parti fisse header & footer --}}
+    @include('.partials.header')
 
     @yield('main-content')
+
+    @include('.partials.footer')
 
   </body>
 

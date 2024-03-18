@@ -6,14 +6,12 @@
 
 @section('main-content')
     <main>
-      @include('.partials.header')
-
+      
       <div class="container">
 
         <h1>characters</h1>
       
       </div>
 
-      @include('.partials.footer')
     </main>
 @endsection

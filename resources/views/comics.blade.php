@@ -12,13 +12,12 @@
 
 {{-- sviluppo il contenuto --}}
 @section('main-content')
-    @include('partials.header')
 
     <main  id="comicon" >
         <div class="container">
             <h1>current series</h1>
     
-            <div class="row g-3">
+            <div class="row g-3 pt-3">
                 {{-- itero l'array per stampare la collezione --}}
                 @foreach ($comicon as $item)
                     
@@ -39,6 +38,4 @@
         </div>
 
     </main>
-
-    @include('partials.footer')
 @endsection
