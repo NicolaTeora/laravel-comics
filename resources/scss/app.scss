@@ -1,28 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
-//comics.blade.php
-#comicon{
-    background-color: rgb(28, 28, 28);
-    color: white;
-    h1{
-        width: fit-content;
-        padding: 10px;
-        background-color: rgb(2, 130, 249);
-    }
-}
-figure{
-    img{ 
-        width: 200px;
-        height: 250px;
-    }
-    figcaption{
-        margin-top: .9rem;
-        font-family: "Lucida Console", "Courier New", monospace;
-        font-weight: bold;
-        font-size: small;
-    }
-}
-
+// header.blade.php
 header{
     background-color: rgb(2, 130, 249);
     .up-nav{
@@ -51,5 +29,38 @@ header{
         height: 450px;
         background-image: url(../../public/images/jumbotron.jpg);
         background-size: cover;
+    }
+}
+
+//comics.blade.php
+#comicon{
+    background-color: rgb(28, 28, 28);
+    color: white;
+    h1{
+        width: fit-content;
+        padding: 10px;
+        background-color: rgb(2, 130, 249);
+    }
+}
+figure{
+    img{ 
+        width: 200px;
+        height: 250px;
+    }
+    figcaption{
+        margin-top: .9rem;
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-weight: bold;
+        font-size: small;
+    }
+}
+
+
+//footer.blade.php
+#footer{
+    background-image: url(../../public/images/footer-bg.jpg);
+    color: white;
+    .logo{
+        
     }
 }

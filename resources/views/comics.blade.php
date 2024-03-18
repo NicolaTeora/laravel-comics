@@ -4,9 +4,11 @@
 {{-- uso il segna posto per cambiare il nome nella scheda del broswer --}}
 @section('title','- comics')
 
-{{-- @section('comics_css')
+{{-- 
+@section('comics_css')
     <link rel="stylesheet" href="../style/style.css">
-@endsection --}}
+@endsection 
+--}}
 
 {{-- sviluppo il contenuto --}}
 @section('main-content')

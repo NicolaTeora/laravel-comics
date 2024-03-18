@@ -9,3 +9,13 @@ Create poi una rotta per visualizzare la lista di tutti i fumetti recuperati da 
 ### Bonus:
 
 Create più pagine istituzionali che condividono lo stesso layout
+
+## Parte 2
+
+### Bonus 1:
+
+Realizzare un controller PageController che gestisca la logica delle pagine realizzate
+
+### Bonus 2:
+
+Realizzare una pagina di dettaglio per il comic (passando l'indice come parametro della rotta)
