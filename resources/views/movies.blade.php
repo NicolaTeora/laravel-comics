@@ -6,14 +6,17 @@
 
 @section('main-content')
     <main>
-      @include('.partials.header')
 
       <div class="container">
 
         <h1>movies</h1>
+        <div class="row pt-3 pb-3">
+          <div class="col">
+            film
+          </div>
+        </div>
       
       </div>
-
-      @include('.partials.footer')
+      
     </main>
 @endsection

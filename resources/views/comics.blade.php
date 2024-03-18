@@ -15,16 +15,19 @@
 
     <main  id="comicon" >
         <div class="container">
-            <h1>current series</h1>
+            <h1>Current Series</h1>
     
             <div class="row g-3 pt-3">
                 {{-- itero l'array per stampare la collezione --}}
-                @foreach ($comicon as $item)
+                @foreach ($comicon as $id=>$item)
                     
                 <div class="col">
     
                     <figure>
-                        <img src="{{ $item['thumb'] }}" alt="cover">
+                        {{-- inserisco l'ancor tag per creare un link che apra la pagina di dettaglio --}}
+                        <a href="{{ route('comic_det', ['id' => $id]) }}">
+                            <img src="{{ $item['thumb'] }}" alt="cover">
+                        </a>
                         <figcaption>
                             {{ $item['series'] }}
                         </figcaption>

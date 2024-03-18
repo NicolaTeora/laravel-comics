@@ -2,6 +2,14 @@
 
 use Illuminate\Support\Facades\Route;
 
+/**
+ * imposto l'uso del PageController per utilizzarlo
+ * costruisco "use" con il "nomespace" della PageController +
+ * il nome della classe "PageController"
+ */
+
+use App\Http\Controllers\PageController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,15 +21,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-  return view('characters');
-})->name('characters');
+Route::get('/', [PageController::class, 'index'])->name('characters');
 
-Route::get('/comics', function () {
-  $comicon = config('comics');
-  return view('comics', compact('comicon'));
-})->name('comics');
+Route::get('/comics', [PageController::class, 'comics'])->name('comics');
+Route::get('/comic_det/{id}', [PageController::class, 'comicDetail'])->name('comic_det');
 
-Route::get('/movies', function () {
-  return view('movies');
-})->name('movies');
+Route::get('/movies', [PageController::class, 'movies'])->name('movies');
